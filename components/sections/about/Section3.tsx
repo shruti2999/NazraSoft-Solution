@@ -61,7 +61,7 @@ export default function Section3() {
                         <div className="swiper-wrapper z-1 align-items-center">
                             <SwiperSlide>
                                 <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={0}>
-                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/dm.png" alt="AstraX" />
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/dm.png" alt="NazraX" />
                                     <div className="position-absolute bottom-0 start-0">
                                         <Link href="#">
                                             <h6 className="fw-semibold m-4 text-white">Digital Marketing</h6>
@@ -71,7 +71,7 @@ export default function Section3() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={200}>
-                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/web.png" alt="AstraX" />
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/web.png" alt="NazraX" />
                                     <div className="position-absolute bottom-0 start-0">
                                         <Link href="#">
                                             <h6 className="fw-semibold m-4 text-white">Website Development</h6>
@@ -81,7 +81,7 @@ export default function Section3() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={400}>
-                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/shopify.png" alt="AstraX" />
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/shopify.png" alt="NazraX" />
                                     <div className="position-absolute bottom-0 start-0">
                                         <Link href="#">
                                             <h6 className="fw-semibold m-4 text-white">Shopify Development</h6>
@@ -91,7 +91,7 @@ export default function Section3() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={600}>
-                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/smm.png" alt="AstraX" />
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/smm.png" alt="NazraX" />
                                     <div className="position-absolute bottom-0 start-0">
                                         <Link href="#">
                                             <h6 className="fw-semibold m-4 text-white">Social Media Management</h6>
@@ -101,7 +101,7 @@ export default function Section3() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={800}>
-                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/wordpress.png" alt="AstraX" />
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/wordpress.png" alt="NazraX" />
                                     <div className="position-absolute bottom-0 start-0">
                                         <Link href="#">
                                             <h6 className="fw-semibold m-4 text-white">WordPress</h6>
@@ -111,7 +111,7 @@ export default function Section3() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={1000}>
-                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/logo_deg.png" alt="AstraX" />
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/logo_deg.png" alt="NazraX" />
                                     <div className="position-absolute bottom-0 start-0">
                                         <Link href="#">
                                             <h6 className="fw-semibold m-4 text-white">logo design </h6>

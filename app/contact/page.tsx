@@ -10,7 +10,7 @@ export default function Home() {
                 <PageHeader title="Contact Us" current_page="Contact" />
                 <Section1 />
                 <Section2 />
-                <Section9 bordertop="border-top" />
+                <Section9 border-top="border-top" />
             </Layout>
         </>
     );

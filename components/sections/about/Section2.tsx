@@ -6,7 +6,7 @@ import Link from "next/link";
 const slidesContent = [
     <Link href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
         <img src="assets/imgs/pages/ai-solutions/icons/lg-1.svg" alt="NazraSoft" />
-        <h5 className="mb-0 fw-regular fs-30 fw-bold text-dark py-6">NeuraEdge</h5>
+        <h5 className="mb-0 fw-regular fs-30 fw-bold text-dark py-6">Profitswipe</h5>
     </Link>,
     <Link href="#" className="d-inline-flex align-items-center gap-3 bg-white px-5">
         <img src="assets/imgs/pages/ai-solutions/icons/lg-2.svg" alt="NazraSoft" />
@@ -46,10 +46,10 @@ export default function Section2() {
                                 <span className="small-line" />
                                 <span className="btn-text text-primary">Our Vision</span>
                             </div>
-                            <h2 className="text-dark my-3 text-anime-style-3 mb-lg-0">Our mission is to fast-track progress in artificial intelligence.</h2>
+                            <h2 className="text-dark my-3 text-anime-style-3 mb-lg-0">Your Growth Partner in the Digital World</h2>
                         </div>
                         <div className="col-lg-4 offset-lg-1">
-                            <p className="pb-4 mb-0 wow img-custom-anim-top mb-0">To lead the AI revolution by building smarter, safer, and more inclusive technologies that empower humanity to unlock its full potential.</p>
+                            <p className="pb-4 mb-0 wow img-custom-anim-top mb-0">At NazraSoft, we empower businesses to grow through a seamless blend of web development, digital marketing, and social media management — all under one roof.</p>
                         </div>
                     </div>
                     <div className="row mt-5 g-4">

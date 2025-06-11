@@ -15,25 +15,12 @@ export default function Section1() {
                                 <div className="card-contact-body p-4 d-flex flex-column">
                                     <div className="card-contact-info mt-2 mb-auto">
                                         <Link href="#">
-                                            <h6>New York City</h6>
+                                            <h6>Email Address</h6>
                                         </Link>
-                                        <p className="mb-0">123 AI Innovation Drive, Suite 456</p>
-                                        <p className="mb-0">New York, NY 10001</p>
-                                        <p className="mb-0">United States</p>
+                                        <p className="mb-0">Sent mail asap anytime</p>
+                                        <p className="mb-0">info@nazrasoftware.com</p>
+                                        <p className="mb-0">career@nazrasoftware.com</p>
                                     </div>
-                                    <div className="d-flex flex-column mt-3 gap-2 mb-4">
-                                        <Link href="#" className="fs-7">
-                                            <i className="ri-mail-open-line text-primary" />
-                                            <span className="@@color-text"> &nbsp; info@NazraSoft.com </span>
-                                        </Link>
-                                        <Link href="telto:(123) 456 789 00" className="fs-7">
-                                            <i className="ri-phone-line text-primary" />
-                                            <span className="@@color-text"> +(123) 456 789 00 </span>
-                                        </Link>
-                                    </div>
-                                    <Link href="#" className="text-decoration-underline text-uppercase">
-                                        View on Google Map
-                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -45,25 +32,12 @@ export default function Section1() {
                                 <div className="card-contact-body p-4 d-flex flex-column">
                                     <div className="card-contact-info mt-2 mb-auto">
                                         <Link href="#">
-                                            <h6>London</h6>
+                                            <h6>Phone Number</h6>
                                         </Link>
-                                        <p className="mb-0">456 Tech Lane, Floor 7</p>
-                                        <p className="mb-0">London, EC1A 1BB</p>
-                                        <p className="mb-0">United Kingdom</p>
+                                        <p className="mb-0">Call us</p>
+                                        <p className="mb-0">91-9470099622</p>
+                                        <p className="mb-0">+(91) 74-8897-0171</p>
                                     </div>
-                                    <div className="d-flex flex-column mt-3 gap-2 mb-4">
-                                        <Link href="#" className="fs-7">
-                                            <i className="ri-mail-open-line text-primary" />
-                                            <span className="@@color-text"> &nbsp; info@NazraSoft.com </span>
-                                        </Link>
-                                        <Link href="telto:(123) 456 789 00" className="fs-7">
-                                            <i className="ri-phone-line text-primary" />
-                                            <span className="@@color-text"> +(123) 456 789 00 </span>
-                                        </Link>
-                                    </div>
-                                    <Link href="#" className="text-decoration-underline text-uppercase">
-                                        View on Google Map
-                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -75,25 +49,13 @@ export default function Section1() {
                                 <div className="card-contact-body p-4 d-flex flex-column">
                                     <div className="card-contact-info mt-2 mb-auto">
                                         <Link href="#">
-                                            <h6>Singapore</h6>
+                                            <h6>Whatsapp</h6>
                                         </Link>
-                                        <p className="mb-0">12789 Future Street, #12-34</p>
-                                        <p className="mb-0">Singapore 068987</p>
-                                        <p className="mb-0">Singapore</p>
+                                        <p className="mb-0">Discuss your idea on whatsapp too</p>
+                                        <p className="mb-0">91-9470099622</p>
+                                        <p className="mb-0">+(91) 74-8897-0171</p>
                                     </div>
-                                    <div className="d-flex flex-column mt-3 gap-2 mb-4">
-                                        <Link href="#" className="fs-7">
-                                            <i className="ri-mail-open-line text-primary" />
-                                            <span className="@@color-text"> &nbsp; info@NazraSoft.com </span>
-                                        </Link>
-                                        <Link href="telto:(123) 456 789 00" className="fs-7">
-                                            <i className="ri-phone-line text-primary" />
-                                            <span className="@@color-text"> +(123) 456 789 00 </span>
-                                        </Link>
-                                    </div>
-                                    <Link href="#" className="text-decoration-underline text-uppercase">
-                                        View on Google Map
-                                    </Link>
+                                    
                                 </div>
                             </div>
                         </div>

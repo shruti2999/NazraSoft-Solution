@@ -1,102 +1,80 @@
-import Link from "next/link";
-
-export default function Section9({ bordertop }: any) {
+export default function Section3() {
     return (
         <>
-            {/*ai-solutions-about section 9*/}
-            <section className="ai-solutions-about-section-9 position-relative overflow-hidden">
-                <div className={`container position-relative z-1 ${bordertop} py-120`}>
-                    <div className="text-center">
-                        <div className="d-flex align-items-center justify-content-center gap-3">
-                            <span className="small-line" />
-                            <span className="btn-text text-primary">insights</span>
-                            <span className="small-line" />
-                        </div>
-                        <h2 className="text-dark mt-3 mb-8 text-anime-style-2">Company blog feeds</h2>
-                    </div>
-                    <div className="row mt-8">
-                        <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={200}>
-                            <div className="card-news position-relative mb-lg-0 mb-5 hover-up">
-                                <Link href="/blog-details" className="card-news-img position-relative d-block">
-                                    <img className="w-100 rounded-3 rounded-bottom-0" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/img-1.png" alt="NazraSoft" />
-                                    <span className="text-uppercase text-white bg-linear-1 rounded-2 px-2 py-1 position-absolute top-0 start-0 m-4 fs-8 fw-semibold">ai</span>
-                                </Link>
-                                <div className="card-news-body border p-4 rounded-3 rounded-top-0 border-top-0">
-                                    <div className="d-flex card-news-information gap-4">
-                                        <div className="d-flex align-items-center gap-1">
-                                            <img src="assets/imgs/template/icons/icon-1.svg" alt="NazraSoft" />
-                                            <p className="mb-0">December 21, 2025</p>
-                                        </div>
-                                        <div className="d-flex align-items-center gap-1">
-                                            <img src="assets/imgs/template/icons/icon-2.svg" alt="NazraSoft" />
-                                            <span className="opacity-50">By</span>
-                                            <Link href="#" className="mb-0">
-                                                Admin
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    <div className="card-news-title mt-2">
-                                        <Link href="/blog-details">
-                                            <h6>2025: brace for the 'big one' cyber attack.</h6>
-                                        </Link>
-                                    </div>
-                                </div>
+            {/*it-solutions-home-section-3*/}
+            <section className="it-solutions-home-section-3 position-relative overflow-hidden pt-120 pb-120 bg-white">
+                <div className="position-absolute top-50 start-50 translate-middle">
+
+                </div>
+                <div className="container position-relative z-1">
+                    <div className="row g-md-5 g-3">
+                        <div className="col-lg-3 col-6">
+                            <div className="text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width={69} height={60} viewBox="0 0 69 60" fill="none">
+                                    <path d="M34.2857 23.388C40.7208 23.388 45.9375 18.1714 45.9375 11.7363C45.9375 5.30115 40.7208 0.0844727 34.2857 0.0844727C27.8506 0.0844727 22.6339 5.30115 22.6339 11.7363C22.6339 18.1714 27.8506 23.388 34.2857 23.388Z" fill="#0D6EFD" />
+                                    <path d="M57.8572 23.3879C61.9253 23.3879 65.2232 20.09 65.2232 16.0218C65.2232 11.9537 61.9253 8.65576 57.8572 8.65576C53.789 8.65576 50.4911 11.9537 50.4911 16.0218C50.4911 20.09 53.789 23.3879 57.8572 23.3879Z" fill="#0D6EFD" />
+                                    <path d="M10.7143 23.3879C14.7825 23.3879 18.0804 20.09 18.0804 16.0218C18.0804 11.9537 14.7825 8.65576 10.7143 8.65576C6.64617 8.65576 3.34827 11.9537 3.34827 16.0218C3.34827 20.09 6.64617 23.3879 10.7143 23.3879Z" fill="#0D6EFD" />
+                                    <path d="M17.9719 30.0028C15.0723 27.6272 12.4464 27.9416 9.09375 27.9416C4.07946 27.9416 0 31.997 0 36.9805V51.6068C0 53.7711 1.76652 55.5309 3.93884 55.5309C13.3173 55.5309 12.1875 55.7006 12.1875 55.1265C12.1875 44.7623 10.9599 37.1617 17.9719 30.0028Z" fill="#292929" />
+                                    <path d="M37.4746 27.9951C31.6187 27.5066 26.5287 28.0007 22.1384 31.6245C14.7915 37.5094 16.2054 45.433 16.2054 55.1263C16.2054 57.6909 18.292 59.8165 20.8956 59.8165C49.1655 59.8165 50.2906 60.7284 51.967 57.0161C52.5168 55.7606 52.3661 56.1596 52.3661 44.1495C52.3661 34.6103 44.1063 27.9951 37.4746 27.9951Z" fill="#292929" />
+                                    <path d="M59.4777 27.9414C56.1068 27.9414 53.4953 27.6302 50.5996 30.0026C57.5592 37.1083 56.384 44.1903 56.384 55.1262C56.384 55.704 55.4461 55.5307 64.492 55.5307C66.742 55.5307 68.5715 53.7079 68.5715 51.4673V36.9803C68.5715 31.9968 64.492 27.9414 59.4777 27.9414Z" fill="#292929" />
+                                </svg>
+                                <h1 className="count mb-0">
+                                    <span className="odometer text-nowrap" data-count={30} />+
+                                </h1>
+                                <p>Clients</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={400}>
-                            <div className="card-news position-relative mb-lg-0 mb-5 hover-up">
-                                <Link href="/blog-details" className="card-news-img position-relative d-block">
-                                    <img className="w-100 rounded-3 rounded-bottom-0" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/img-2.png" alt="NazraSoft" />
-                                    <span className="text-uppercase text-white bg-linear-1 rounded-2 px-2 py-1 position-absolute top-0 start-0 m-4 fs-8 fw-semibold">automation</span>
-                                </Link>
-                                <div className="card-news-body border p-4 rounded-3 rounded-top-0 border-top-0">
-                                    <div className="d-flex card-news-information gap-4">
-                                        <div className="d-flex align-items-center gap-1">
-                                            <img src="assets/imgs/template/icons/icon-1.svg" alt="NazraSoft" />
-                                            <p className="mb-0">December 21, 2025</p>
-                                        </div>
-                                        <div className="d-flex align-items-center gap-1">
-                                            <img src="assets/imgs/template/icons/icon-2.svg" alt="NazraSoft" />
-                                            <span className="opacity-50">By</span>
-                                            <Link href="#" className="mb-0">
-                                                Admin
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    <div className="card-news-title mt-2">
-                                        <Link href="/blog-details">
-                                            <h6>2025: brace for the 'big one' cyber attack.</h6>
-                                        </Link>
-                                    </div>
-                                </div>
+                        <div className="col-lg-3 col-6">
+                            <div className="text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width={46} height={60} viewBox="0 0 46 60" fill="none">
+                                    <g clipPath="url(#clip0_349_2463)">
+                                        <path
+                                            d="M5.42188 60H40.5781C43.486 60 45.8516 57.6345 45.8516 54.7266V17.5781H33.5469C30.639 17.5781 28.2734 15.2126 28.2734 12.3047V0H5.42188C2.51398 0 0.148438 2.36555 0.148438 5.27344V54.7266C0.148438 57.6345 2.51398 60 5.42188 60ZM12.4531 24.7266H33.5469C34.5185 24.7266 35.3047 25.5128 35.3047 26.4844C35.3047 27.456 34.5185 28.2422 33.5469 28.2422H12.4531C11.4815 28.2422 10.6953 27.456 10.6953 26.4844C10.6953 25.5128 11.4815 24.7266 12.4531 24.7266ZM12.4531 31.7578H33.5469C34.5185 31.7578 35.3047 32.544 35.3047 33.5156C35.3047 34.4872 34.5185 35.2734 33.5469 35.2734H12.4531C11.4815 35.2734 10.6953 34.4872 10.6953 33.5156C10.6953 32.544 11.4815 31.7578 12.4531 31.7578ZM12.4531 38.7891H33.5469C34.5185 38.7891 35.3047 39.5753 35.3047 40.5469C35.3047 41.5185 34.5185 42.3047 33.5469 42.3047H12.4531C11.4815 42.3047 10.6953 41.5185 10.6953 40.5469C10.6953 39.5753 11.4815 38.7891 12.4531 38.7891ZM12.4531 45.8203H26.5156C27.4872 45.8203 28.2734 46.6065 28.2734 47.5781C28.2734 48.5497 27.4872 49.3359 26.5156 49.3359H12.4531C11.4815 49.3359 10.6953 48.5497 10.6953 47.5781C10.6953 46.6065 11.4815 45.8203 12.4531 45.8203Z"
+                                            fill="#292929"
+                                        />
+                                        <path d="M33.5469 14.0624H44.8216L31.7891 1.02991V12.3046C31.7891 13.2745 32.577 14.0624 33.5469 14.0624Z" fill="#0D6EFD" />
+                                    </g>
+                                </svg>
+                                <h1 className="count mb-0">
+                                    <span className="odometer text-nowrap" data-count={50} />+
+                                </h1>
+                                <p>Projects done</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={600}>
-                            <div className="card-news position-relative mb-lg-0 mb-5 hover-up">
-                                <Link href="/blog-details" className="card-news-img position-relative d-block">
-                                    <img className="w-100 rounded-3 rounded-bottom-0" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/img-3.png" alt="NazraSoft" />
-                                    <span className="text-uppercase text-white bg-linear-1 rounded-2 px-2 py-1 position-absolute top-0 start-0 m-4 fs-8 fw-semibold">software</span>
-                                </Link>
-                                <div className="card-news-body border p-4 rounded-3 rounded-top-0 border-top-0">
-                                    <div className="d-flex card-news-information gap-4">
-                                        <div className="d-flex align-items-center gap-1">
-                                            <img src="assets/imgs/template/icons/icon-1.svg" alt="NazraSoft" />
-                                            <p className="mb-0">December 21, 2025</p>
-                                        </div>
-                                        <div className="d-flex align-items-center gap-1">
-                                            <img src="assets/imgs/template/icons/icon-2.svg" alt="NazraSoft" />
-                                            <span className="opacity-50">By</span>
-                                            <Link href="#" className="mb-0">
-                                                Admin
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    <div className="card-news-title mt-2">
-                                        <Link href="/blog-details">
-                                            <h6>2025: brace for the 'big one' cyber attack.</h6>
-                                        </Link>
-                                    </div>
-                                </div>
+                        <div className="col-lg-3 col-6">
+                            <div className="text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width={60} height={60} viewBox="0 0 60 60" fill="none">
+                                    <g clipPath="url(#clip0_349_2467)">
+                                        <path d="M9.61028 38.5771L3.93585 49.9242C3.66302 50.4694 3.69232 51.1171 4.01229 51.6353C4.33318 52.153 4.89806 52.4684 5.50735 52.4684H14.0433L19.1647 59.2969C19.4975 59.7423 20.0198 60 20.5696 60C21.2997 60 21.8751 59.5642 22.1425 59.0287L27.4896 48.3339C20.2602 47.6427 13.8863 43.9769 9.61028 38.5771Z" fill="#292929" />
+                                        <path d="M56.033 49.9242L50.3586 38.5771C46.0826 43.9769 39.7087 47.6427 32.4792 48.3339L37.8268 59.0287C38.0937 59.5642 38.6691 60 39.3993 60C39.949 60 40.4718 59.7423 40.8046 59.2969L45.9256 52.4684H54.4615C55.0708 52.4684 55.6357 52.153 55.9566 51.6353C56.2766 51.1171 56.3058 50.4694 56.033 49.9242Z" fill="#292929" />
+                                        <path d="M32.9264 17.302L29.9843 12.6022L27.0432 17.302C26.802 17.6875 26.4207 17.9644 25.9798 18.0747L20.6016 19.4201L24.162 23.67C24.4541 24.0183 24.5997 24.4665 24.5681 24.9201L24.1849 30.4508L29.327 28.3781C29.5714 28.2797 30.0713 28.1483 30.6412 28.3781L35.7838 30.4508L35.4011 24.9201C35.3699 24.4665 35.5155 24.0183 35.8076 23.67L39.368 19.4201L33.9898 18.0747C33.549 17.9644 33.1676 17.6875 32.9264 17.302Z" fill="#292929" />
+                                        <path
+                                            d="M52.4534 22.4689C52.4534 10.0795 42.3739 0 29.9845 0C17.5951 0 7.51562 10.0795 7.51562 22.4689C7.51562 34.8578 17.5951 44.9377 29.9845 44.9377C42.3739 44.9377 52.4534 34.8582 52.4534 22.4689ZM43.8666 19.525L38.9576 25.3844L39.4849 33.0098C39.5266 33.614 39.2547 34.1972 38.7649 34.5534C38.2746 34.9091 37.636 34.9878 37.0743 34.7617L29.9845 31.9038L22.8947 34.7617C22.7047 34.8381 21.948 35.0935 21.2041 34.5534C20.7143 34.1972 20.4424 33.614 20.4841 33.0098L21.0123 25.3844L16.1033 19.5255C15.7142 19.0608 15.5915 18.4291 15.7787 17.8532C15.9659 17.2774 16.4365 16.8379 17.0243 16.691L24.4391 14.8361L28.4945 8.35648C28.8158 7.84332 29.3789 7.53159 29.9845 7.53159C30.5901 7.53159 31.1532 7.84332 31.4745 8.35648L35.5308 14.8361L42.9456 16.691C43.5334 16.8379 44.004 17.2774 44.1912 17.8532C44.3784 18.4291 44.2557 19.0608 43.8666 19.525Z"
+                                            fill="#0D6EFD"
+                                        />
+                                    </g>
+                                </svg>
+                                <h1 className="count mb-0">
+                                    <span className="odometer text-nowrap" data-count={148} />
+                                    +
+                                </h1>
+                                <p>Cup of Tea</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-6">
+                            <div className="text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width={60} height={60} viewBox="0 0 60 60" fill="none">
+                                    <path d="M50.5731 47.3763L48.5618 44.4929C44.1293 47.5845 38.9264 49.2187 33.5156 49.2187C18.9768 49.2187 7.14844 37.3904 7.14844 22.8515C7.14844 17.4407 8.78262 12.2379 11.8744 7.80536L8.99086 5.79407C5.48566 10.8194 3.63281 16.7178 3.63281 22.8515C3.63281 37.5301 14.271 49.7706 28.2422 52.2683V56.4843H17.6953V60H49.3359V56.4843H38.7891V52.2684C43.0045 51.5164 47.0085 49.8627 50.5731 47.3763Z" fill="#292929" />
+                                    <path d="M31.984 45.6516C31.8328 44.5863 31.7578 43.5117 31.7578 42.4348C31.7578 41.1445 31.1977 40.5352 29.5793 38.9648C28.2738 37.6887 28.7414 38.1363 27.5145 36.9141L28.7566 35.6707C30.5684 33.859 31.2328 32.7645 30.382 31.0629L28.6359 27.5707L21.041 22.507C18.7934 21.0094 18.0293 18.0211 19.3008 15.7055C19.9148 14.5898 19.3102 13.2012 18.0773 12.8941L13.541 11.7598C11.7082 15.0469 10.6641 18.8297 10.6641 22.8516C10.6641 34.9371 20.0953 44.8617 31.984 45.6516Z" fill="#0D6EFD" />
+                                    <path d="M22.3828 17.3988C21.982 18.1277 22.2492 19.0875 22.991 19.582L26.741 22.0816C26.5382 18.7348 28.5152 16.3898 30.9035 15.1641C31.9101 14.6484 31.7109 13.3699 31.7578 12.3047C31.7578 9.39727 34.1238 7.03125 37.0312 7.03125C38.4011 7.03125 40.8761 6.88008 40.9089 5.50547V1.22695C38.5898 0.432422 36.1019 0 33.5156 0C26.2757 0 19.8105 3.38555 15.6199 8.65547L18.9304 9.48281C22.3957 10.35 24.1078 14.257 22.3828 17.3988Z" fill="#0D6EFD" />
+                                    <path d="M35.2734 42.4348C35.2734 43.5 35.3613 44.5652 35.5347 45.6152C40.6921 45.1605 45.3632 42.9867 48.9691 39.6715C46.6839 38.0777 44.775 36.1336 43.855 35.1328C41.0132 34.9195 38.5078 33.2496 37.2164 30.6691C36.4324 29.1 34.855 28.125 33.1007 28.125H32.8441L33.5273 29.4902C35.1421 32.7199 33.8144 35.216 32.4539 36.8566C34.0078 38.3824 35.2734 39.8262 35.2734 42.4348Z" fill="#0D6EFD" />
+                                    <path d="M42.791 24.9621C41.6613 22.2316 42.416 18.4957 43.8492 17.0636C44.6168 16.296 48.5543 11.4632 51.1137 8.28979C49.261 6.05503 46.991 4.17651 44.4246 2.77612V5.55229C44.3988 7.02534 43.7778 8.26284 42.6281 9.1312C41.366 10.0839 39.5356 10.5468 37.0313 10.5468C36.0621 10.5468 35.2735 11.3355 35.2735 12.3046C35.2852 14.9296 34.9254 17.0531 32.5078 18.2929C30.0774 19.5386 29.5992 21.6644 31.0875 24.6093H33.1008C36.1957 24.6093 38.9778 26.3285 40.3617 29.0964C41.1457 30.6656 42.7231 31.6406 44.4774 31.6406H45.4688L45.9938 32.2511C47.2887 33.7511 49.3488 35.7152 51.3902 37.0734C53.3145 34.6605 54.7606 31.8503 55.5844 28.7871C51.6692 28.3687 48.218 28.125 47.5781 28.125C45.3692 28.125 43.6242 26.9718 42.791 24.9621Z" fill="#0D6EFD" />
+                                    <path d="M53.2161 11.2816C50.9309 14.1082 47.2278 18.6562 46.3348 19.5492C45.9294 20.0004 45.4184 22.2246 46.0653 23.6777C46.3606 24.3398 46.7989 24.6094 47.5782 24.6094C48.4629 24.6094 52.1462 24.873 56.2348 25.3183C56.3227 24.5074 56.3672 23.6847 56.3672 22.8515C56.3672 18.6328 55.2176 14.6777 53.2161 11.2816Z" fill="#0D6EFD" />
+                                </svg>
+                                <h1 className="count mb-0">
+                                    <span className="odometer text-nowrap" data-count="4"/>.8+
+                                </h1>
+                                <p>Highly Rated Company</p>
                             </div>
                         </div>
                     </div>

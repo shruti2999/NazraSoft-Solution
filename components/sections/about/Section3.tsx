@@ -1,62 +1,126 @@
+"use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import Link from "next/link";
+
+const swiperOptions = {
+    modules: [Autoplay, Pagination, Navigation],
+    slidesPerView: 5,
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    loop: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+        },
+        575: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        767: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        991: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        },
+        1199: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+        },
+        1350: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+        },
+    },
+};
+
 export default function Section3() {
     return (
         <>
-            {/*ai-solutions-about section 3*/}
-            <section className="ai-solutions-about-section-3 position-relative overflow-hidden pt-120 pb-120 border-bottom">
-                <div className="container position-relative z-1">
-                    <div className="row align-items-end mb-5">
-                        <div className="col-lg-5">
-                            <div className="d-flex align-items-center gap-3">
-                                <span className="small-line" />
-                                <span className="btn-text text-primary">Vision &amp; Mission</span>
-                            </div>
-                            <h2 className="text-dark my-3 text-anime-style-3">Redefining What Robots Are Capable Of</h2>
-                        </div>
-                        <div className="col-lg-4 ms-lg-auto">
-                            <p className="pb-4 mb-0 wow img-custom-anim-top">Our journey is marked by a relentless pursuit of excellence, partnerships with leading organizations, and a commitment to creating technology that matters.</p>
-                        </div>
+            
+            <section className="marketing-agency-home-section-3 position-relative overflow-hidden py-120 bg-secondary-2">
+                <div className="container">
+                    <div className="text-center">
+                        <span className="content-top btn-text text-primary d-flex align-items-center justify-content-center">
+                            <div className="line" />
+                            <span className="mx-3">our services</span>
+                            <div className="line" />
+                        </span>
+                        <h2 className="mt-3 mb-80 text-anime-style-2">Company expertise</h2>
                     </div>
-                    <div className="row align-items-center">
-                        <div className="col-lg-6 order-3 order-lg-1 mt-lg-0 mt-8 d-none d-lg-block">
-                            <img className="wow img-custom-anim-top" src="assets/imgs/pages/ai-solutions/page-about/img-4.png" alt="NazraSoft" />
+                </div>
+                <div className="container-fluid">
+                    <Swiper {...swiperOptions} className="swiper slider-6 ps-3">
+                        <div className="swiper-wrapper z-1 align-items-center">
+                            <SwiperSlide>
+                                <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={0}>
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/dm.png" alt="AstraX" />
+                                    <div className="position-absolute bottom-0 start-0">
+                                        <Link href="#">
+                                            <h6 className="fw-semibold m-4 text-white">Digital Marketing</h6>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={200}>
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/web.png" alt="AstraX" />
+                                    <div className="position-absolute bottom-0 start-0">
+                                        <Link href="#">
+                                            <h6 className="fw-semibold m-4 text-white">Website Development</h6>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={400}>
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/shopify.png" alt="AstraX" />
+                                    <div className="position-absolute bottom-0 start-0">
+                                        <Link href="#">
+                                            <h6 className="fw-semibold m-4 text-white">Shopify Development</h6>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={600}>
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/smm.png" alt="AstraX" />
+                                    <div className="position-absolute bottom-0 start-0">
+                                        <Link href="#">
+                                            <h6 className="fw-semibold m-4 text-white">Social Media Management</h6>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={800}>
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/wordpress.png" alt="AstraX" />
+                                    <div className="position-absolute bottom-0 start-0">
+                                        <Link href="#">
+                                            <h6 className="fw-semibold m-4 text-white">WordPress</h6>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="card-service position-relative d-inline-flex" data-aos="zoom-in" data-aos-delay={1000}>
+                                    <img src="assets/imgs/pages/ai-solutions/page-home/home-section-4/logo_deg.png" alt="AstraX" />
+                                    <div className="position-absolute bottom-0 start-0">
+                                        <Link href="#">
+                                            <h6 className="fw-semibold m-4 text-white">logo design </h6>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
                         </div>
-                        <div className="col-lg-6 col-md-12 order-2 ">
-                            <h4 className="text-dark my-3 text-anime-style-3">Our Vision</h4>
-                            <p className="pb-4 text wow img-custom-anim-top border-bottom pb-4 mb-4">To lead the AI revolution by building smarter, safer, and more inclusive technologies that empower humanity to unlock its full potential.</p>
-                            <h4 className="text-dark my-3 text-anime-style-3">Our Vision</h4>
-                            <p className="pb-4 text wow img-custom-anim-top">To lead the AI revolution by building smarter, safer, and more inclusive technologies that empower humanity to unlock its full potential.</p>
-                            <ul className="list-unstyled d-flex flex-wrap wow img-custom-anim-top">
-                                <li className="mb-3 gap-2 w-md-50 w-100">
-                                    <div className="d-flex align-items-center gap-2 mb-2">
-                                        <img src="assets/imgs/pages/ai-solutions/icons/head.svg" alt="NazraSoft" />
-                                        <h6 className="fs-20 mb-0 text-dark">Empower Businesses</h6>
-                                    </div>
-                                    <p className="pe-3">Provide accessible and customized AI technologies that enable organizations of all sizes to thrive in the digital age.</p>
-                                </li>
-                                <li className="mb-3 gap-2 w-md-50 w-100">
-                                    <div className="d-flex align-items-center gap-2 mb-2">
-                                        <img src="assets/imgs/pages/ai-solutions/icons/head.svg" alt="NazraSoft" />
-                                        <h6 className="fs-20 mb-0 text-dark">Innovate with Purpose</h6>
-                                    </div>
-                                    <p className="pe-3">Provide accessible and customized AI technologies that enable organizations of all sizes to thrive in the digital age.</p>
-                                </li>
-                                <li className="mb-3 gap-2 w-md-50 w-100">
-                                    <div className="d-flex align-items-center gap-2 mb-2">
-                                        <img src="assets/imgs/pages/ai-solutions/icons/head.svg" alt="NazraSoft" />
-                                        <h6 className="fs-20 mb-0 text-dark">Responsible AI</h6>
-                                    </div>
-                                    <p className="pe-3">Advocate for ethical AI practices, ensuring fairness, sustainability in every solution we create.</p>
-                                </li>
-                                <li className="mb-3 gap-2 w-md-50 w-100">
-                                    <div className="d-flex align-items-center gap-2 mb-2">
-                                        <img src="assets/imgs/pages/ai-solutions/icons/head.svg" alt="NazraSoft" />
-                                        <h6 className="fs-20 mb-0 text-dark">Inspire Progress</h6>
-                                    </div>
-                                    <p className="pe-3">Foster a future where AI empowers humanity, equipping individuals and businesses to unlock their full potential.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    </Swiper>
                 </div>
             </section>
         </>

@@ -11,19 +11,19 @@ export default function Footer() {
                         <div className="container position-relative z-2">
                             <div className="py-120 d-flex flex-wrap gap-4 justify-content-between">
                                 <div>
-                                    <h3 className="text-primary btn-text pb-3">popular promt</h3>
+                                    <h3 className="text-primary btn-text pb-3">Quick Links</h3>
                                     <div className="d-flex flex-column align-items-start">
                                         <Link href="#">
-                                            <p>Science</p>
+                                            <p>Need Quotation</p>
                                         </Link>
                                         <Link href="#">
-                                            <p>Sports</p>
+                                            <p>Privacy</p>
                                         </Link>
                                         <Link href="#">
-                                            <p>Architecture</p>
+                                            <p>Disclaimer</p>
                                         </Link>
                                         <Link href="#">
-                                            <p>Design</p>
+                                            <p>Terms &amp; Conditions </p>
                                         </Link>
                                     </div>
                                 </div>
@@ -31,16 +31,16 @@ export default function Footer() {
                                     <h3 className="text-primary btn-text pb-3">COMPANY</h3>
                                     <div className="d-flex flex-column align-items-start">
                                         <Link href="#">
+                                            <p>Home</p>
+                                        </Link>
+                                        <Link href="#">
                                             <p>About</p>
                                         </Link>
                                         <Link href="#">
-                                            <p>Features</p>
+                                            <p>Services</p>
                                         </Link>
                                         <Link href="#">
-                                            <p>Works</p>
-                                        </Link>
-                                        <Link href="#">
-                                            <p>Career</p>
+                                            <p>Contact</p>
                                         </Link>
                                     </div>
                                 </div>
@@ -54,9 +54,6 @@ export default function Footer() {
                                             <p>Delivery Details</p>
                                         </Link>
                                         <Link href="#">
-                                            <p>Terms &amp; Conditions</p>
-                                        </Link>
-                                        <Link href="#">
                                             <p>Privacy Policy</p>
                                         </Link>
                                     </div>
@@ -65,43 +62,26 @@ export default function Footer() {
                                     <h3 className="text-primary btn-text pb-3">services</h3>
                                     <div className="d-flex flex-column align-items-start">
                                         <Link href="#">
-                                            <p>Website Design</p>
+                                            <p>WordPress</p>
                                         </Link>
                                         <Link href="#">
-                                            <p>Business Consultancy</p>
+                                            <p>Logo design</p>
                                         </Link>
                                         <Link href="#">
-                                            <p>Tax &amp; Finance</p>
+                                            <p>Social Media Management</p>
                                         </Link>
                                         <Link href="#">
-                                            <p>ROI Business Growth</p>
+                                            <p>Web development</p>
                                         </Link>
                                     </div>
                                 </div>
-                                <div>
-                                    <h3 className="text-primary btn-text pb-3">get daily updates</h3>
-                                    <form action="#" className="input-group mb-3 mt-4 position-relative">
-                                        <div className="row">
-                                            <div className="col-12">
-                                                <input type="text" className="py-3 form-control email rounded-4 border-0" name="email" placeholder="Enter here" />
-                                                <button className="btn btn-linear mt-3" type="submit" aria-label="subscribe" data-aos="zoom-in" data-aos-delay={100}>
-                                                    <span>subscribe</span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-                                                        <g clipPath="url(#clip0_886_362)">
-                                                            <path d="M15.8167 7.55759C15.8165 7.5574 15.8163 7.55719 15.8161 7.557L12.5504 4.307C12.3057 4.06353 11.91 4.06444 11.6665 4.30912C11.423 4.55378 11.4239 4.9495 11.6686 5.193L13.8612 7.375H0.625C0.279813 7.375 0 7.65481 0 8C0 8.34519 0.279813 8.625 0.625 8.625H13.8612L11.6686 10.807C11.4239 11.0505 11.423 11.4462 11.6665 11.6909C11.91 11.9356 12.3058 11.9364 12.5504 11.693L15.8162 8.443C15.8163 8.44281 15.8165 8.44259 15.8167 8.4424C16.0615 8.19809 16.0607 7.80109 15.8167 7.55759Z" fill="white" />
-                                                        </g>
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
+                                
                             </div>
                             <div className="d-flex flex-column flex-lg-row gap-3 align-items-center py-4 border-top justify-content-between">
                                 <p className="m-0 text-center">
                                     Copyright &amp; design by
                                     <Link href="/contact" className=" ">
-                                        <span className="text-white fw-medium">©Alithemes</span>
+                                        <span className="text-white fw-medium">©NazraSoft</span>
                                     </Link>
                                     2025, All Rights Reserved
                                 </p>

@@ -10,8 +10,7 @@ export default function Home() {
         <>
             <Layout>
                 <PageHeader title="Our Services" current_page="Our Services" />
-                <Section1 title="Transform Your Industry with the Power of AI and Robotics" display="d-block" ds_btn="d-none" />
-                <Section2 />
+                <Section1 />
                 <Section3 />
                 
                 <Section9 border-top="" />

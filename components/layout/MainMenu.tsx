@@ -14,51 +14,15 @@ export default function MainMenu() {
                     <span>About</span>
                 </Link>
             </li>
-            <li className="nav-item dropdown menu-item-has-children">
-                <Link className="nav-link text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item ">
+                <Link className="nav-link text-uppercase" href="/services">
                     <span>Services</span>
                 </Link>
-                <ul className="dropdown-menu">
-                    <li>
-                        <Link className="dropdown-item text-capitalize" href="/services">
-                            <span>Services</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="dropdown-item text-capitalize" href="/services-details">
-                            <span>Services Details</span>
-                        </Link>
-                    </li>
-                </ul>
             </li>
-            <li className="nav-item dropdown menu-item-has-children">
-                <Link className="nav-link text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item ">
+                <Link className="nav-link text-uppercase" href="/blog">
                     <span>Blog</span>
                 </Link>
-                <ul className="dropdown-menu">
-                    <li>
-                        <Link className="dropdown-item text-capitalize" href="/blog">
-                            <span>Blog</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className="dropdown-item text-capitalize" href="/blog-details">
-                            <span>Blog Details</span>
-                        </Link>
-                    </li>
-                </ul>
-            </li>
-            <li className="nav-item dropdown menu-item-has-children">
-                <Link className="nav-link text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span>Pages</span>
-                </Link>
-                <ul className="dropdown-menu">
-                    <li>
-                        <Link className="dropdown-item text-capitalize" href="/pricing">
-                            <span>Pricing</span>
-                        </Link>
-                    </li>
-                </ul>
             </li>
             <li className="nav-item">
                 <Link className="nav-link text-uppercase" href="/contact">

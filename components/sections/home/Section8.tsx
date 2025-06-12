@@ -103,14 +103,14 @@ export default function Section8() {
                                                 <i className="bi bi-star-fill text-primary" />
                                                 <i className="bi bi-star-fill text-primary" />
                                             </div>
-                                            <h6 className="mb-0 mt-4 fw-medium">" Unrivaled brilliance surpassing all others. Highly recommended for novices and experts alike. We will hire them for sure. "</h6>
+                                            <h6 className="mb-0 mt-4 fw-medium">" Appreciation for Nazra Software's Comprehensive Solutions "</h6>
                                             <div className="d-flex align-items-center mt-5">
                                                 <Link href="#">
                                                     <img className="rounded-circle icon-shape icon-50" src="assets/imgs/pages/ai-solutions/page-home/home-section-8/avatar-1.png" alt="NazraSoft" />
                                                 </Link>
                                                 <div className="text-start ms-3">
                                                     <Link href="#">
-                                                        <span className="btn-text">Sophia J. Carter</span>
+                                                        <span className="btn-text">Alam</span>
                                                     </Link>
                                                     <p className="mb-0 fs-7">Head Of Idea, Treve LLC</p>
                                                 </div>
